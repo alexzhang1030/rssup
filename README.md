@@ -8,8 +8,6 @@
 
 A faster way to build you package.
 
-replace `rssup` and `A faster way to build you package.` to real name and description.
-
 ## Installation
 
 ```bash
