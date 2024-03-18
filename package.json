@@ -1,5 +1,5 @@
 {
-  "name": "rsup",
+  "name": "rssup",
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@8.15.5",
@@ -8,11 +8,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexzhang1030/rsup.git"
+    "url": "git+https://github.com/alexzhang1030/rssup.git"
   },
   "keywords": [
     "bundler",
-    "rsup"
+    "rssup"
   ],
   "exports": {
     ".": {
