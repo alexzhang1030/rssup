@@ -2,7 +2,7 @@
   "name": "rssup",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@9.0.5",
+  "packageManager": "pnpm@9.0.6",
   "description": "A faster way to build you package.",
   "author": "alexzhang1030",
   "license": "MIT",
@@ -35,7 +35,7 @@
     "release": "vitest run && bumpp --commit \"chore: release v%s\" --push --tag && pnpm publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.13.3",
+    "@antfu/eslint-config": "^2.15.0",
     "bumpp": "^9.4.0",
     "eslint": "npm:eslint-ts-patch@8.56.0-0",
     "eslint-ts-patch": "8.56.0-0",
@@ -43,7 +43,7 @@
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5",
-    "vitest": "^1.5.0"
+    "vitest": "^1.5.2"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
